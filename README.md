@@ -2,8 +2,8 @@
 
 **A stablecoin based on the Canadian Dollar**
 
-Will be compliant with EIC-20 standards.
+EIC-20 standard token.
 
-Due to issues with Solidity not fully supporting decimal places, CADT will be represented in cents.
+Due to issues with Solidity not fully supporting decimal places, CADT is represented in cents.
 
 Example: 250CADT is $2.50CAD
