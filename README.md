@@ -1,6 +1,6 @@
 ## Virtual CAD (Still looking for a name)
 
-**A stablecoin backed by the Canadian Dollar**
+**A stablecoin based on the Canadian Dollar**
 
 Will be compliant with EIC-20 standards.
 
