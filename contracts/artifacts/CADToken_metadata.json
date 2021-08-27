@@ -132,7 +132,7 @@
 						"type": "uint8"
 					}
 				],
-				"stateMutability": "view",
+				"stateMutability": "pure",
 				"type": "function"
 			},
 			{
@@ -145,7 +145,7 @@
 						"type": "string"
 					}
 				],
-				"stateMutability": "view",
+				"stateMutability": "pure",
 				"type": "function"
 			},
 			{
@@ -158,7 +158,7 @@
 						"type": "string"
 					}
 				],
-				"stateMutability": "view",
+				"stateMutability": "pure",
 				"type": "function"
 			},
 			{
@@ -256,19 +256,19 @@
 	},
 	"sources": {
 		"contracts/CADToken.sol": {
-			"keccak256": "0x72c394ace89753b873c90bd5006834292fa298c777fb3ab868896de48b679b51",
+			"keccak256": "0xd615a9f16ca3178d05103b82fc9c90bfe8dc3ef19709c67a0a2c4b5b133ca7f1",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://4ea697df7e8c6d22f60435743429560ae8611106a8ae1eb45add7ac1a232fbe0",
-				"dweb:/ipfs/QmTJZwkuHf3NGTZ6fch6wriEK23Qrvyit8SZf5cqWGV1du"
+				"bzz-raw://caee135d48e93ac756e8757e3250393f237c5b94a407628a13187cd2da95ea50",
+				"dweb:/ipfs/QmaNe7rMLTDJVPHkBWJbyxo6EDurMqmdk6sVrDSHP5Pxpk"
 			]
 		},
-		"contracts/EIC20.sol": {
-			"keccak256": "0x41f5f389cf906aa89a7ae06333f061d93871a1201a8b24abdd25937f2d8ee9e8",
+		"contracts/EIP20.sol": {
+			"keccak256": "0x9f38fa5aac70412695e4143adcf3b425563d5c35f659c073d417c7ce8ab2b3eb",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://6f8624bafb8bd05015fda92a07bfc08bd1b9946e5ca73e4b9e76b38fa5e10914",
-				"dweb:/ipfs/QmZnEt1VwoQPUeQLVWAAaNH3k1MZEeYd2r1T3dpqMa5C65"
+				"bzz-raw://b27ce2c8fbd40f51e9e863d60368059dc51b4905c3f7c2f6520fc6b64f584292",
+				"dweb:/ipfs/QmQceQPhECQE7eCr2dUYyQRWSKXG4K6JjayR7W1FnYqTia"
 			]
 		}
 	},

@@ -108,7 +108,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/EIC20.sol": "EIC20"
+			"contracts/EIP20.sol": "EIP20"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -122,12 +122,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/EIC20.sol": {
-			"keccak256": "0x7dacc986b253e9e160f1cd2e3dd6ea86278dcb9ede0bb380306c4a7a6e881854",
+		"contracts/EIP20.sol": {
+			"keccak256": "0x9f38fa5aac70412695e4143adcf3b425563d5c35f659c073d417c7ce8ab2b3eb",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://1118491e7dba0d5f43c55f9ebef3013609bd696acb67f069ca814fdcf8f77767",
-				"dweb:/ipfs/QmQaqqQmKEKvWmun1SpygraetuUySHKnh13qrnXGJ1RqZo"
+				"bzz-raw://b27ce2c8fbd40f51e9e863d60368059dc51b4905c3f7c2f6520fc6b64f584292",
+				"dweb:/ipfs/QmQceQPhECQE7eCr2dUYyQRWSKXG4K6JjayR7W1FnYqTia"
 			]
 		}
 	},
