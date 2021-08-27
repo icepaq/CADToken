@@ -6,6 +6,11 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
 				"anonymous": false,
 				"inputs": [
 					{
@@ -133,6 +138,19 @@
 					}
 				],
 				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getOwner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -269,11 +287,11 @@
 	},
 	"sources": {
 		"contracts/CADToken.sol": {
-			"keccak256": "0x0562568b01c6a9100ae0ca531b0bd01f7bb8bb42466cc9e17f35effd5bde86da",
+			"keccak256": "0xb16eebf7ca4f0c7c65560cd4872813bde5166bf34e2fb45d44d0886f34133335",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://f2d94059f77a29a75351abed8621cce7189d59320361bfb8d930b5f2c78fc0bf",
-				"dweb:/ipfs/QmRQJDgoLvk7cLYFNrbRK4a3VaJ96yRjFXb2yVCxCvibGU"
+				"bzz-raw://dd0cf737b9506d26c08c10ca5c8be394560500572b2d85141e98c7f675ed3c20",
+				"dweb:/ipfs/QmSYs3LgcGyzhqDyeoMybgfvPbvqkLhB3xGXXrfJ2Si6v7"
 			]
 		},
 		"contracts/EIP20.sol": {

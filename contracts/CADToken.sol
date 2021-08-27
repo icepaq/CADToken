@@ -7,13 +7,21 @@ import "./EIP20.sol";
 
 contract CADToken is EIP20 {
     
+    address private owner;
+    constructor() {
+        owner = msg.sender;
+    }
     
-    address private owner = msg.sender;
+    
     uint256 private supply = 0;
     
-    mapping (address => uint256) bank;
+    mapping (address => uint256) private bank;
     
-    mapping (address => mapping (address => uint256 )) approved; // For approve function
+    mapping (address => mapping (address => uint256 )) private approved; // For approve function
+    
+    function getOwner() public view returns(address) {
+        return owner;
+    }
     
     function mint(uint256 _amount) public {
         supply += _amount;
