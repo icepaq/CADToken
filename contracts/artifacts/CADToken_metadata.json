@@ -136,6 +136,19 @@
 				"type": "function"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "mint",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "name",
 				"outputs": [
@@ -256,11 +269,11 @@
 	},
 	"sources": {
 		"contracts/CADToken.sol": {
-			"keccak256": "0xd615a9f16ca3178d05103b82fc9c90bfe8dc3ef19709c67a0a2c4b5b133ca7f1",
+			"keccak256": "0x0562568b01c6a9100ae0ca531b0bd01f7bb8bb42466cc9e17f35effd5bde86da",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://caee135d48e93ac756e8757e3250393f237c5b94a407628a13187cd2da95ea50",
-				"dweb:/ipfs/QmaNe7rMLTDJVPHkBWJbyxo6EDurMqmdk6sVrDSHP5Pxpk"
+				"bzz-raw://f2d94059f77a29a75351abed8621cce7189d59320361bfb8d930b5f2c78fc0bf",
+				"dweb:/ipfs/QmRQJDgoLvk7cLYFNrbRK4a3VaJ96yRjFXb2yVCxCvibGU"
 			]
 		},
 		"contracts/EIP20.sol": {
